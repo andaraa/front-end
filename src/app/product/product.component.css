@@ -1,0 +1,26 @@
+.back {
+  padding: 15px;
+}
+.back .cart {
+  font-size: 20px;
+  padding-right: 10px;
+  color: white;
+}
+.card img {
+  width: 100%;
+  height: 210px;
+}
+.card {
+  box-shadow: 3px 4px 9px grey;
+}
+.card-img-top img {
+  object-position: center;
+}
+.card-title {
+  font-size: 14;
+}
+.card-text {
+  color: orangered;
+  font-size: 17px;
+  font-weight: bold;
+}

@@ -1,0 +1,69 @@
+<nav
+  class="navbar shadow sticky-top navbar-light bg"
+  style="background-color: black"
+>
+  <div class="container1">
+    <div class="back text-white">
+      <span>
+        <a routerLink="/login">
+          <fa-icon class="cart" [icon]="faArrowLeft"> </fa-icon>
+        </a>
+        Register
+      </span>
+    </div>
+  </div>
+</nav>
+<!-- navbar -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <img
+      src="/assets/img/whatsapp-blocked-contact.png"
+      alt="profil"
+      width="150px"
+      height="150px"
+      class="rounded-circle img-thumbnail"
+    />
+  </div>
+</div>
+
+<div class="container justify-content-start">
+  <div class="row">
+    <div class="col-md-3 mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="First name"
+        aria-label="First name"
+      />
+    </div>
+    <div class="col-md-3 mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Last name"
+        aria-label="Last name"
+      />
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" />
+    </div>
+    <div class="col-md-3">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" />
+    </div>
+    <div class="col-md-3 mb-4">
+      <label for="inputPassword4" class="form-label">Konfirmasi Password</label>
+      <input type="password" class="form-control" id="inputPassword4" />
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Register</button>
+      <a routerLink="/login">
+        <button type="button" class="btn btn-link">Nanti Saja</button>
+      </a>
+    </div>
+  </div>
+</div>

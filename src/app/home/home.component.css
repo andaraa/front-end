@@ -1,0 +1,91 @@
+#section {
+  width: 100%;
+}
+.message {
+  background-color: #121212;
+  padding-bottom: 10px;
+}
+.message h1 {
+  color: white;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.carousel {
+  background-color: #121212;
+  color: white;
+  padding-bottom: 20px;
+}
+.carousel {
+  max-width: 100%;
+  height: auto;
+}
+.caorusel-item img {
+  max-width: 100%;
+  height: auto;
+}
+.navbar-brand {
+  color: white;
+  font-size: 35px;
+}
+.navbar .nav-link {
+  color: white;
+}
+
+.d-flex {
+  color: white;
+}
+.judul {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#merce {
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url(/assets/img/teahub.io-mercedes-logo-wallpaper-195562.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 10px;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.row2 h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.row3 {
+  font-size: 18px;
+}
+.col-md-7 {
+  font-weight: normal;
+}
+#cars {
+  color: black;
+  background-color: white;
+}
+
+.col1 h1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.container2 {
+  background-color: #ffc400;
+}
+.containerA {
+  padding: 20px;
+  background-image: url(/assets/img/peak1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}

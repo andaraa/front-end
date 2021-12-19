@@ -1,0 +1,55 @@
+<nav class="navbar sticky-top navbar-light bg" style="background-color: black">
+  <div class="container1 text-white">
+    <div class="back">
+      <span>
+        <a routerLink="/home">
+          <fa-icon class="cart" [icon]="faArrowLeft"> </fa-icon>
+        </a>
+        Login
+      </span>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body text-white">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                Masukan Password & Email anda.
+              </div>
+            </div>
+            <div class="pass mb-5">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="btn">
+              <button type="submit" class="btn btn-primary">Login</button>
+              <div class="li">
+                <a class="nav-link" routerLink="/register">Register</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

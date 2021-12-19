@@ -1,0 +1,41 @@
+<nav class="navbar sticky-top navbar-light bg" style="background-color: black">
+  <div class="container text-white">
+    <img
+      src="/assets/img/Daco_5324244.png"
+      alt="AMG-Logo"
+      width="120px"
+      height="19px"
+    />
+
+    <form class="input d-flex">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <div class="srch">
+      <fa-icon class="src" (click)="src()" [icon]="faSearch"></fa-icon>
+      <input
+        class="cari form-control"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        *ngIf="show"
+      />
+
+      <a routerLink="/home">
+        <fa-icon class="home ms-1" [icon]="faHome"> </fa-icon>
+      </a>
+      <a routerLink="/login">
+        <fa-icon class="sign ms-1" [icon]="faSignInAlt"></fa-icon>
+      </a>
+      <a routerLink="/login">
+        <fa-icon class="cart ms-1" [icon]="faShoppingCart"> </fa-icon>
+      </a>
+      <a routerLink="/product" class="product"><span>Product</span> </a>
+    </div>
+  </div>
+</nav>

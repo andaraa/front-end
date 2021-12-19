@@ -1,0 +1,28 @@
+.container {
+  max-width: 100%;
+  height: 700px;
+}
+.back {
+  padding: 15px;
+}
+.back .cart {
+  font-size: 20px;
+  padding-right: 10px;
+  color: white;
+}
+.row {
+  padding-top: 100px;
+  background: linear-gradient(to bottom, black, grey, white);
+}
+
+.card {
+  /* background: linear-gradient(to top, grey, white); */
+  background-image: url(/assets/img/peakpx.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 6px 9px black;
+  border-radius: 0px 50% 0px 50%;
+}
+.btn {
+  display: flex;
+}
